@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    background-image: url('img/wow.jpg'); /* Ścieżka do obrazka tła */
+    background-size: cover; /* Dopasowuje obrazek do rozmiaru okna przeglądarki */
+    background-position: center; /* Wyśrodkowuje obrazek w oknie przeglądarki */
+    background-attachment: fixed; /* Poziome i pionowe przewijanie wraz z zawartością strony */
+    background-repeat: no-repeat; /* Wyłącza powtarzanie obrazka tła */
+}
+
+.search-container {
+    text-align: center;
+    padding: 20px;
+    /*background-color: rgba(255, 255, 255, 0.8); /* Dodaje tło z przeźroczystością */
+}
+
+#search-input {
+    padding: 10px 60px;
+    font-size: 16px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+#search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Dodaje odstęp od góry przycisku */
+}
+
+#search-button:hover {
+    background-color: #0056b3;
+}
+.profile-link {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.2s ease;
+}
+
+.profile-link:hover {
+    background-color: #0056b3;
+}
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.my-image {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 10px;
+    /* Dodatkowe style dla obrazków */
+}
+
+.img1, .img2, .img3 {
+    max-width: 300px; /* Dostosowuje szerokość obrazka do 300 pikseli */
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: absolute;
+    top: 250px;
+}
+
+.img1 {
+    left: 540px;
+}
+
+.img2 {
+    left: 890px;
+}
+
+.img3 {
+    left: 1250px;
+}
+
+.search-results {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
